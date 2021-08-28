@@ -1,8 +1,34 @@
 void setup() {
-  size(800,800);
+  size(800,600);
+ PImage img;
+  img = loadImage("https://cdn.wallpapersafari.com/2/29/fdr5Z7.jpg");
+  background(img);
 }
 
 void draw() {
+
+//lightening
+  stroke(255,255,255);
+  strokeWeight(2);
+  line(30,50,560,100);
+  
+  stroke(255,255,255);
+  strokeWeight(2);
+  line(100,20,200,200);
+  
+  stroke(255,255,255);
+  strokeWeight(2);
+  line(50,250,160,10);
+  
+  int x = 80;
+  
+  while (x < 600) {
+    stroke(255,255,255);
+    strokeWeight(2);
+    line(x,350,160,10);
+    x = x + 50;
+     
+  }
   
   //head
    noStroke();
@@ -38,8 +64,13 @@ void draw() {
   
   //body
   noStroke();
-   fill(255,165,0);
-   ellipse(390,310,280,230);
+  fill(255,165,0);
+  ellipse(390,310,280,230);
+   
+  //stomach
+  noStroke();
+  fill(255,255,150);
+  ellipse(390,310,190,140);
    
   //left leg
   fill(255,165,0);
@@ -48,19 +79,19 @@ void draw() {
   fill(255,165,0);
   rect(430,400,40,120);
   
-   //rightfootcenter
-   noStroke();
+  //rightfootcenter
+  noStroke();
   fill(255,165,0);
   ellipse(450,530, 30, 70);
   //rightfootright
-   fill(255,165,0);
+  fill(255,165,0);
   ellipse(470,530, 30, 70);
   //rightfootleft
-   fill(255,165,0);
+  fill(255,165,0);
   ellipse(430,530, 30, 70);
   
-   //leftfootleft
-   noStroke();
+  //leftfootleft
+  noStroke();
   fill(255,165,0);
   ellipse(300,530, 30, 70);
   //leftfootright
@@ -77,6 +108,24 @@ void draw() {
   fill(255,165,0);
   rect(160,300,130,40);
   
+  //leftUpClaw
+  fill(255,165,0);
+  ellipse(180,310, 70, 10);
+  //leftMidClaw
+  fill(255,165,0);
+  ellipse(180,320, 70, 10);
+  //leftDownClaw
+  fill(255,165,0);
+  ellipse(180,330, 70, 10);
+  
+  //rightUpClaw
+  fill(255,165,0);
+  ellipse(620,310, 70, 10)
+  //rightMidClaw
+  fill(255,165,0);
+  ellipse(620,320, 70, 10);
+  //rightDownClaw
+  fill(255,165,0);
+  ellipse(620,330, 70, 10);
+  
 }
-
-
