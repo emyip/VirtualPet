@@ -7,7 +7,7 @@ void setup() {
 
 void draw() {
 
-//lightening
+/*lightening
   stroke(255,255,255);
   strokeWeight(2);
   line(30,50,560,100);
@@ -28,7 +28,7 @@ void draw() {
     line(x,350,160,10);
     x = x + 50;
      
-  }
+  } */
   
   //head
    noStroke();
