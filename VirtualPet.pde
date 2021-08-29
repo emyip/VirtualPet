@@ -1,30 +1,12 @@
 void setup() {
   size(800,600);
+  PImage img;
+  img = loadImage("https://cdn.wallpapersafari.com/2/29/fdr5Z7.jpg");
+  background(img);
 }
 
 void draw() {
 
-//lightening
-  stroke(255,255,255);
-  strokeWeight(2);
-  line(30,50,560,100);
-  
-  stroke(255,255,255);
-  strokeWeight(2);
-  line(100,20,200,200);
-  
-  stroke(255,255,255);
-  strokeWeight(2);
-  line(50,250,160,10);
-  
-  int x = 80;
-  
-  while (x < 600) {
-    stroke(255,255,255);
-    strokeWeight(2);
-    line(x,350,160,10);
-    x = x + 50;
-     
   }
   
   //head
