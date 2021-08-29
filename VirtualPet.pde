@@ -1,13 +1,8 @@
 void setup() {
   size(800,600);
-  PImage img;
-  img = loadImage("https://cdn.wallpapersafari.com/2/29/fdr5Z7.jpg");
-  background(img);
 }
 
 void draw() {
-
-  }
   
   //head
    noStroke();
